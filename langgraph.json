@@ -1,0 +1,11 @@
+{
+    "dependencies": ["./ragagent"],
+    "graphs": {
+      "agent": "./ragagent/agent.py:graph"
+    },
+    "env": ".env",
+    "dockerfile_lines": [
+      "ADD monk.txt /deps/__outer_ragagent/ragagent/utils/monk.txt",
+      "ADD monk.txt /api/monk.txt"
+    ]
+  }
