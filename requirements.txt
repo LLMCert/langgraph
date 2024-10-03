@@ -1,0 +1,7 @@
+langgraph
+langchain_openai
+langchain_community
+chromadb
+langgraph-cli
+langgraph_sdk
+python-dotenv

@@ -1,2 +1,4 @@
 .venv/
 .env
+ragagent/__pycache__/
+ragagent/utils/__pycache__/
